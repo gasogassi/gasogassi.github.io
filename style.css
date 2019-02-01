@@ -1,0 +1,242 @@
+:root {
+  --IMS-red: #f52222;
+  --IMS-grey: #9A9A9A;
+}
+
+
+body,html{
+  height: 100%;
+  margin: 0;
+  color: #fff;
+  font-family: 'Muller Narrow';
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+::selection {
+  background: var(--IMS-red); /* WebKit/Blink Browsers */
+  color: black;
+}
+body{
+  background: rgb(33, 33, 33);
+  background-size: cover;
+  background-image:url(/svg/right_white.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100%;
+}
+.red_text{
+  color: var(--IMS-red);
+}
+.grey_text{
+  color: var(--IMS-grey);
+}
+/* #right_white{
+  position: right;
+  top: 0;
+  height: auto;
+  z-index: -1;
+} */
+#logo{
+  /* position: relative; */
+  /* height: 300%;
+  padding-top: 460px;
+  padding-left: 20px; */
+}
+/* ------------------------------BUTTON NAVIGATION------------------------------*/
+          .nav:focus {
+            outline: none;
+          }
+          .nav {
+            display: inline-block;
+            border-radius: 100px;
+            background-color: rgb(255, 255, 255, 0);
+            border: none;
+            border-width: 2.4px;
+            border-color: none;
+            color: #9A9A9A;
+            font-size: 20px;
+            letter-spacing: 0.15em;
+            text-align: center;
+            font-family: 'Muller Narrow';
+            height: 50px;
+            width: 200px;
+            letter-spacing: 0.15em;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+          }
+          .nav:active{
+            border: line;
+            border-width: 2.4px;
+            border-color: #FFF;
+          }
+          .nav span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.2s;
+          }
+
+          .nav span:after {
+            /* content: '\2023'; */
+            font-size: 10px;
+            position: middle;
+            opacity: 0;
+            top: 2px;
+            right: -10px;
+          }
+
+          .nav:hover span {
+            letter-spacing: .22em;
+            color: white;
+            text-shadow: 0px 7px 30px rgba(17, 17, 17, 0.4);
+          }
+
+          .nav:hover span:after {
+            opacity: 1;
+            right: 10px;
+          }
+/* ------------------------------BUTTON CONTACT US------------------------------*/
+          .button:focus {
+            outline: none;
+          }
+          .button {
+            display: inline-block;
+            border-radius: 100px;
+            background-color: rgb(255, 255, 255, 0);
+            border: line;
+            border-width: 2.4px;
+            border-color: #E60000;
+            color: #E60000;
+            text-align: center;
+            font-size: 13px;
+            font-family: 'Muller Narrow';
+            font-weight: bold;
+            height: 50px;
+            width: 230px;
+            letter-spacing: 0.3em;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+          }
+          .button:hover{
+            background-color: #E60000;
+          }
+          .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.25s;
+          }
+
+          .button span:after {
+            /* content: '\2023'; */
+            font-size: 10px;
+            position: middle;
+            opacity: 0;
+            top: 2px;
+            right: -10px;
+            transition: 0.5s;
+          }
+
+          .button:hover span {
+            letter-spacing: .35em;
+            color: white;
+          }
+
+          .button:hover span:after {
+            opacity: 1;
+            right: 10px;
+          }
+
+/* ------------------------------BUTTON MORE INFO------------------------------*/
+                    .button_more_div{
+                      padding-top: 40px;
+                    }
+                    .button_more:focus {
+                      outline: none;
+                    }
+                    .button_more {
+                      display: inline-block;
+                      border-radius: 100px;
+                      background-color: rgb(255, 255, 255, 0);
+                      border: line;
+                      border-width: 2.4px;
+                      border-color: #FFF;
+                      color: #FFF;
+                      text-align: center;
+                      font-size: 13px;
+                      font-family: 'Muller Narrow';
+                      font-weight: bold;
+                      height: 50px;
+                      width: 230px;
+                      letter-spacing: 0.3em;
+                      transition: all 0.5s;
+                      cursor: pointer;
+                      margin: 5px;
+                    }
+
+                    .button_more span {
+                      cursor: pointer;
+                      display: inline-block;
+                      position: relative;
+                      transition: 0.25s;
+                    }
+
+                    .button_more span:after {
+                      /* content: '\2023'; */
+                      font-size: 10px;
+                      position: middle;
+                      opacity: 0;
+                      top: 2px;
+                      right: 50px;
+                      transition: 0.5s;
+                    }
+                    .button_more:hover{
+                      background-color: white;
+                    }
+                    .button_more:hover span {
+                      letter-spacing: .35em;
+                      color: black;
+                    }
+
+                    .button_more:hover span:after {
+                      opacity: 1;
+                      right: 10px;
+                    }
+
+/* ------------------------------NAVIGATION BAR------------------------------*/
+           nav{
+            padding-top: 50px;
+            padding-left: 80px;
+            padding-right: 50px;
+          }
+
+          nav ul{
+            list-style-type: none;
+            float: right;
+          }
+          nav ul li{
+            display: inline-grid;
+            /* font-size: 22px; */
+            /* letter-spacing: 0.15em; */
+          }
+          /* nav ul li a{
+            color: #9A9A9A;
+            padding: 0 50px ;
+          } */
+.naslov_NP{
+  margin-top: 12%;
+  padding-left: 15%;
+  margin-bottom: 25px;
+  font-size: 80px;
+  font-weight: bold;
+}
+.text_NP{
+  /* padding-top: .5%; */
+  padding-left: 15%;
+  font-size: 22px;
+}
